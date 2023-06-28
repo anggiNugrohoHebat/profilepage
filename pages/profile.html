@@ -17,8 +17,7 @@
       .content {
         max-height: 92vh;
         overflow: auto; /* Set overflow to hidden */
-        width:80%
-
+        width: 80%;
       }
 
       .menu-bar {
@@ -58,8 +57,10 @@
       }
 
       .profile-image img {
-        width: 200px; /* Lebar gambar profil */
-        border-radius: 50%; /* Membuat gambar profil menjadi bundar */
+        width: 200px;
+        border-radius: 50%;
+        display: block; /* Menghapus spasi di bawah gambar */
+        margin: 0 auto; /* Mengatur gambar menjadi berada di tengah secara horizontal */
       }
 
       .profile-description h2 {
@@ -76,11 +77,15 @@
       }
 
       .project h3 {
-        color: #333333; /* Warna teks judul proyek */
+        color: #311a1a; /* Warna teks judul proyek */
       }
 
       .project p {
         color: #888888; /* Warna teks deskripsi proyek */
+      }
+
+      .content h1 {
+        text-align: center;
       }
     </style>
   </head>
@@ -90,8 +95,8 @@
         <nav>
           <ul>
             <li><a href="index.html">Beranda</a></li>
-            <li><a href="profile.html">Profil</a></li>
-            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="pages/profile.html">Profil</a></li>
+            <li><a href="pages/kontak.html">Kontak</a></li>
           </ul>
         </nav>
       </div>
