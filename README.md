@@ -1,7 +1,6 @@
 # profilepage =>
-webapp url=> https://profilepage-ahy0sd55l-angginugroho07-gmailcom.vercel.app/
-webapp ops=> https://vercel.com/angginugroho07-gmailcom/profilepage/A2f32wXpqnwmHCoBkdcUivXWjXHm
-
+webapp url=> https://profilepage-dnu28kflt-angginugroho07-gmailcom.vercel.app/
+webapp ops=> https://vercel.com/angginugroho07-gmailcom/profilepage/DFxJUbHQ7GXx14GpDr6Z8ryPRK9f
 
 how deploy to varcel:
 Untuk melakukan deployment Vercel menggunakan CLI (Command Line Interface), berikut adalah langkah-langkahnya:

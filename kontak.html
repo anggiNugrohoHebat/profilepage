@@ -18,6 +18,7 @@
         max-height: 92vh;
         overflow: auto; /* Set overflow to hidden */
         width:80%
+
       }
 
       .menu-bar {
@@ -56,62 +57,30 @@
         background-color: #333333;
       }
 
-      .profile-image {
-        margin-bottom: 20px;
-        animation: slideInLeft 1s ease;
-        margin: 0 auto;
-      }
-
       .profile-image img {
-        width: 200px;
-        border-radius: 50%;
+        width: 200px; /* Lebar gambar profil */
+        border-radius: 50%; /* Membuat gambar profil menjadi bundar */
       }
 
-      .profile-description {
-        text-align: center;
-        animation: slideInRight 1s ease;
+      .profile-description h2 {
+        color: #666666; /* Warna teks subjudul */
       }
 
-      .profile h1 {
-        color: #333333;
+      .profile-description p {
+        color: #888888; /* Warna teks deskripsi */
+        line-height: 1.5; /* Jarak antara baris pada teks deskripsi */
       }
 
-      p {
-        color: #666666;
-        line-height: 1.5;
-        text-align: justify;
-        margin: 0;
+      .project {
+        margin-top: 20px; /* Jarak antara proyek dengan proyek sebelumnya */
       }
 
-      @keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
+      .project h3 {
+        color: #333333; /* Warna teks judul proyek */
       }
 
-      @keyframes slideInLeft {
-        0% {
-          transform: translateX(-100%);
-          opacity: 0;
-        }
-        100% {
-          transform: translateX(0);
-          opacity: 1;
-        }
-      }
-
-      @keyframes slideInRight {
-        0% {
-          transform: translateX(100%);
-          opacity: 0;
-        }
-        100% {
-          transform: translateX(0);
-          opacity: 1;
-        }
+      .project p {
+        color: #888888; /* Warna teks deskripsi proyek */
       }
     </style>
   </head>
@@ -127,12 +96,38 @@
         </nav>
       </div>
       <div class="content">
+        <h1>Selamat Datang di Profil Saya</h1>
         <div class="profile-image">
-          <img src="download.jpg" alt="Profil Saya" />
+          <img src="profile.jpg" alt="Profil Saya" />
         </div>
         <div class="profile-description">
-          <h1>Cynan ThefaRyura Nugroho</h1>
-          <p>Cynan Thefa, bayi berusia 3 bulan, penuh pesona dan ceria.</p>
+          <h2>Tentang Saya</h2>
+          <p>
+            Perkenalkan, nama saya John Doe. Saya adalah seorang pengembang web
+            dengan pengalaman lebih dari 5 tahun dalam industri ini.
+          </p>
+          <h2>Keahlian</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+          </ul>
+          <h2>Proyek Terbaru</h2>
+          <div class="project">
+            <h3>Proyek A</h3>
+            <p>
+              Deskripsi proyek A Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </p>
+          </div>
+          <div class="project">
+            <h3>Proyek B</h3>
+            <p>
+              Deskripsi proyek B Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </p>
+          </div>
         </div>
       </div>
     </div>
